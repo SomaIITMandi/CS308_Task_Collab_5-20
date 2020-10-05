@@ -27,3 +27,9 @@ a = [0, 10, 15, 40, -5, 42, 17, 28, 75]
 min, max = np.array(max_min(a))
 
 print('Maximum value = {:.2f}, minimum value = {:.2f}'.format(max, min))
+# computing the length of the array
+n = len(a);
+print('length of the array', n);
+# computing the sum of the array
+sum1 = sum(a);
+print('sum of the array', sum1);
